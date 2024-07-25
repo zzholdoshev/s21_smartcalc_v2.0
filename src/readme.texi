@@ -1,0 +1,7 @@
+\input texinfo
+@titlepage
+@title s21_smartcalc [school21 project] by maelysje
+@end titlepage
+This is a calculator app written for educational purposes. The distinctive feature of this calculator is that, unlike many other projects, it correctly calculates mod with negative numbers, and also has an auto-completion system (type "si" for sin(), "c" for cos(), etc). Also this calculator has the ability to plot graphs.
+@bye
+

@@ -16,7 +16,7 @@ enum x_var_status {
    // expression or for plotting a graph
 enum priority { ADDSUB = 1, MULTDIVMOD = 2, POW = 3, FUNC = 4, NONE = -69 };
 // ADDSUB = ADDING + SUBTRACTION, MULTDIVMOD = MULTIPLICATION + DIVISION +
-// MODULUS
+// MODULO
 enum operators {
   MINUS = -3,
   PLUS = -4,

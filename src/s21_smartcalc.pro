@@ -28,7 +28,8 @@ HEADERS += \
 FORMS += \
     View/graph_window.ui \
     View/mainwindow.ui \
-
+    
+INCLUDEPATH += ./QCustomPlot/
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin

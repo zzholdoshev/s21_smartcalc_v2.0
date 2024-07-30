@@ -5,7 +5,7 @@ BINARY = build/s21_smartcalc
 all: build 
 
 qmake:
-	mkdir -p build && cd build && qmake .. 
+	mkdir -p build && cd build && qmake6 .. 
 
 build: qmake
 	cd build && make

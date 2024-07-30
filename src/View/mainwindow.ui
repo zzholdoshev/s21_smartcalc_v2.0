@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>486</width>
+    <width>466</width>
     <height>600</height>
    </rect>
   </property>
@@ -24,8 +24,7 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="styleSheet">
-    <string notr="true">background-color: #36454F;
-color: white;</string>
+    <string notr="true"/>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_2" stretch="2,3">
     <property name="spacing">
@@ -68,8 +67,7 @@ color: white;</string>
          </font>
         </property>
         <property name="styleSheet">
-         <string notr="true">background-color: #36454F;
-color: white;</string>
+         <string notr="true"/>
         </property>
         <property name="html">
          <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -100,9 +98,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
          <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;digits[0-9]&lt;/p&gt;&lt;p&gt;functions (si = SIN, c = COS , etc)&lt;/p&gt;&lt;p&gt; x = [n] for setting x variable&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
         </property>
         <property name="styleSheet">
-         <string notr="true">background-color: #36454F;
-color: white;
-border: 2px solid white;</string>
+         <string notr="true"/>
         </property>
         <property name="text">
          <string/>
@@ -117,6 +113,11 @@ border: 2px solid white;</string>
       </item>
       <item row="2" column="0">
        <widget class="QPushButton" name="pushButton">
+        <property name="font">
+         <font>
+          <pointsize>14</pointsize>
+         </font>
+        </property>
         <property name="text">
          <string>graph</string>
         </property>

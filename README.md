@@ -2,4 +2,5 @@
 School 21 Calculator poject for educational purposes. Supports trig functions, real mod (works with negative numbers), graphs, autocompletion, detects errors in user input.
 Minimalistic design:
 
-![](./screen.png)
+![](./Screen1.gif)
+![](./Screen2.png)

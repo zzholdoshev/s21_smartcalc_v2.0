@@ -39,33 +39,33 @@ enum operators {
 struct Operator_ {
   Operator_(int name) : name_(name) {
     switch (name_) {
-    case -3:
-    case -4:
+		case MINUS:
+    case PLUS:
       priority_ = ADDSUB;
       break;
-    case -5:
-    case -6:
-    case -8:
+    case MUL:
+    case DIV:
+    case MOD:
       priority_ = MULTDIVMOD;
       break;
-    case 3:
+    case POW:
       priority_ = POW;
       break;
-    case -11:
-    case -12:
-    case -13:
-    case -14:
-    case -15:
-    case -16:
-    case -17:
-    case -18:
-    case -19:
+    case COS:
+    case SIN:
+    case TAN:
+    case ACOS:
+    case ASIN:
+    case ATAN:
+    case SQRT:
+    case LN:
+    case LOG:
       priority_ = FUNC;
       break;
-    case -20:
-    case -21:
+    case LEFT_PARENTHESIS:
+    case RIGHT_PARENTHESIS:
       priority_ = NONE;
-      break;
+			break;
     }
   }
   int priority_;

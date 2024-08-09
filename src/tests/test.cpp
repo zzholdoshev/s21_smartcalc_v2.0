@@ -4,12 +4,12 @@
 using namespace s21;
 TEST(SmartCalc, TestAllOperations) {
   s21::Model a;
-  std::string str = "-1 sin(cos(asin(acos(1)))) * tan(atan(90))  * ln(log(100)) + 1 - 2^2^3 + 17 mod -5"; // MOD with NEGATIVE number, several pow (for checking whether right-associative operation is implmented correctly, all trig funcs
+  std::string str = "-1 sin(cos(asin(acos(1)))) * tan(atan(90))  * ln(log(100)) + 1 - 2^2^3 + 17 mod -5 + sqrt(9000) * (-1)"; // MOD with NEGATIVE number, several pows (for checking whether right-associative operation is implmented correctly, all trig funcs, log and sqrt
   double res;
 	a.checker(str);
 	a.parser(str);
 	res = a.calculation();
-  EXPECT_EQ((int)res, (int)-259.088737768);
+  EXPECT_EQ((int)res, (int)-353.957067573);
 }
 TEST(SmartCalc, TestChecker) {
   s21::Model a;
